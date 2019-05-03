@@ -1,0 +1,17 @@
+{
+    "python.pythonPath": "/Users/carlitos/Library/Caches/pypoetry/virtualenvs/how-long-py3.7/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=88"
+    ],
+    "python.testing.pyTestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pyTestEnabled": true,
+}
