@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "how-long"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple decorator to measure a function excecution time."
 authors = ["wilfredinni <carlos.w.montecinos@gmail.com>"]
 license = "MIT"
