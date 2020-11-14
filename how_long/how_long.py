@@ -12,7 +12,7 @@ def timer(function):
     def function_wrapper():
         start = pendulum.now()
         function()
-        ellapsed_time = pendulum.now() - start
-        print(f"Execution Time: {ellapsed_time.microseconds} ms.")
+        elapsed_time = pendulum.now() - start
+        print(f"Execution Time: {elapsed_time.microseconds} ms.")
 
     return function_wrapper
